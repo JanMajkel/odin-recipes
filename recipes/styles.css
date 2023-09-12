@@ -1,3 +1,45 @@
-h1 {
-    background-color: red;
+body {
+    text-align: center;
+    background-color: rgb(184, 230, 180);
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
+
+ol,
+ul {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+img {
+    height: auto;
+    width: 400px;
+    border-radius: 10%;
+    padding: 20px;
+}
+
+button {
+    padding: 6px;
+    background-color: lightgreen;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #FFF;
+
+    /* the rest below is copied from https://unused-css.com/blog/round-buttons/ */
+    
+    border-color: #2ecc71;
+
+    box-shadow: 0px -100px 0 0 #2ecc71 inset  ;
+  
+    &:hover {
+      box-shadow: 0px 0 0 0 #2ecc71 inset  ;
+    }
+  
+    &:active {
+      box-shadow: 0px 100px 0 0 #2ecc71 inset  ;
+    }
+}
+
