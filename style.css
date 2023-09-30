@@ -1,26 +1,26 @@
 body {
-    text-align: center;
-    font-family:'Courier New', Courier, monospace;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
 }
 
 ul {
-    display: inline-block;
-    text-align: center;
-    list-style: none;
-    padding-left: 0px;
+  display: inline-block;
+  text-align: center;
+  list-style: none;
+  padding-left: 0px;
 }
 
 button {
-    padding: 12px;
-    background-color: lightgreen;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 17px;
-    font-weight: bold;
-    background-color: #FFF;
+  padding: 12px;
+  background-color: lightgreen;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 17px;
+  font-weight: bold;
+  background-color: #fff;
 
-    /* the rest below is copied from https://unused-css.com/blog/round-buttons/ */
+  /* the rest below is copied from https://unused-css.com/blog/round-buttons/ */
 
-    border-color: #2ecc71;
+  /* border-color: #2ecc71;
 
     box-shadow: 0px -100px 0 0 #2ecc71 inset  ;
   
@@ -30,16 +30,16 @@ button {
   
     &:active {
       box-shadow: 0px 100px 0 0 #2ecc71 inset  ;
-    }
+    } */
 }
 
 img {
-    height: auto;
-    width: 400px;
-    padding-top: 150px;
-    border-radius: 10%;
+  height: auto;
+  width: 400px;
+  padding-top: 150px;
+  border-radius: 10%;
 }
 
 li {
-    padding: 5px;
+  padding: 5px;
 }
